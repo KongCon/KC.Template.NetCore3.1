@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\2_Domain\KC.Template.IRepository\KC.Template.IRepository.csproj" />
+    <ProjectReference Include="..\..\3_Infrastructure\KC.Template.Infrastructure\KC.Template.Infrastructure.csproj" />
+    <ProjectReference Include="..\KC.Template.IService\KC.Template.IService.csproj" />
+  </ItemGroup>
+
+</Project>
