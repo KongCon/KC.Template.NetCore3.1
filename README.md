@@ -5,7 +5,7 @@ KC.Template.NetCore3.1是基于.NetCore3.1、EFCore、Autofac的快速开发模�
 
 1、实现基于BackgroundService的后台任务快速开发。
 
-## 分层简介
+# 分层简介
 | 层 | 说明 |
 | :---------------- | --------------: |
 | 1_Common          | 公共层     |
