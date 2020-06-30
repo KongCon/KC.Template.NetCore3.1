@@ -42,10 +42,6 @@ namespace KC.Template.BgService.Extensions
             #endregion
 
             #region 注入Repository层
-            //builder.RegisterAssemblyTypes(typeof(BaseRepository<>).Assembly)
-            //        .AsImplementedInterfaces()
-            //        .InstancePerLifetimeScope();
-
             builder.RegisterAssemblyTypes(typeof(BaseRepository<,>).Assembly)
                     .AsImplementedInterfaces()
                     .InstancePerLifetimeScope();
